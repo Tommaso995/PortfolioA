@@ -6,10 +6,21 @@ nav{
   background-color:  rgb(43, 43, 120);
   color: white;
 }
+a{
+  color: white;
+}
+a:hover{
+  color: rgb(176, 174, 174);
+}
 #dropdown{
   background-color:  rgb(65, 65, 150);
 }
 #darkmode, #lightmode{
   padding-left: 2%;
   color: white;
+}
+.navbarDark{
+  background-color: rgb(33, 32, 32);
+  color: white;
+  transition: background-color 1s;
 }
