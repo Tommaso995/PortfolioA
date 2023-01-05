@@ -7,4 +7,7 @@ import { Component } from '@angular/core';
 })
 export class FooterComponent {
 
+  nome: string = 'Tommaso Magliocca';
+
+  data: Date = new Date();
 }

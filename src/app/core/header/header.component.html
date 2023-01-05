@@ -1,6 +1,6 @@
     <div class="container-fluid p-0">
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark p-2">
-            <a class="navbar-brand" href="#"><!-- Inserire IMG -->Portfolio</a>
+        <nav class="navbar navbar-expand-lg navbar-dark p-2">
+            <a class="navbar-brand" routerLink="/home"><!-- Inserire IMG -->Portfolio</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
@@ -9,19 +9,19 @@
                 <li class="nav-item active">
                   <a class="nav-link" href="#">Home <!-- <span class="sr-only">(current)</span> --></a>
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Progetti</a>
+                <li class="nav-item active">
+                  <a class="nav-link" href="/progetti">Progetti</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item active">
                   <a class="nav-link" href="#">Contatti</a>
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Dropdown
+                      Tema
                     </a>
-                    <ul class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
-                      <li><a class="dropdown-item nav-link" href="#" id="scuro">Scuro</a></li>
-                      <li><a class="dropdown-item nav-link" href="#" id="chiaro">Chiaro</a></li>
+                    <ul class="dropdown-menu" id="dropdown" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item " href="#" id="darkmode">Scuro</a></li>
+                      <li><a class="dropdown-item " href="#" id="lightmode">Chiaro</a></li>
                     </ul>
                   </li>
               </ul>

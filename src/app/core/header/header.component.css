@@ -1,8 +1,15 @@
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+#darkmode:hover, #lightmode:hover{
+  background-color: rgb(167, 167, 239);
+
 }
-#scuro:hover, #chiaro:hover{
-  background-color: rgb(69, 69, 69);
+nav{
+  background-color:  rgb(43, 43, 120);
+  color: white;
+}
+#dropdown{
+  background-color:  rgb(65, 65, 150);
+}
+#darkmode, #lightmode{
+  padding-left: 2%;
+  color: white;
 }
