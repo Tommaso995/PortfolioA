@@ -1,7 +1,7 @@
 <div class="container-fluid">
 <div class="row" id="container">
-  <div class="col-md-1"></div>
-  <div class="col-12 col-xs-12 col-md-10" id="oggetto">
+  <div class="col-1 col-xs-1 col-md-1"></div>
+  <div class="col-10 col-xs-10 col-md-10" id="oggetto">
     <h3>Progetti effettuati da Junior Front End Developer</h3>
       <p>Web-App piattaforma Shop-Online <br>
         …Work-In-Progress…<br></p>
@@ -12,11 +12,48 @@
         <br/>
         Schermate:</p><br/>
 
-        <img src="../../../assets/img/webapp-lista/schermata lista film 1.png" alt="Schermata1 lista" id="foto1Lista">
-        <img src="../../../assets/img/webapp-lista/schermata lista film 2.png" alt="Schermata2 lista" id="foro2Lista">
+        <button class="btnImg" id="btnImg1" data-bs-toggle="modal" data-bs-target="#btnImage1"><img src="../../../assets/img/webapp-lista/schermata lista film 1.png" alt="Schermata1 lista" id="foto1Lista"></button>
+        <button class="btnImg" id="btnImg2" data-bs-toggle="modal" data-bs-target="#btnImage2"><img src="../../../assets/img/webapp-lista/schermata lista film 2.png" alt="Schermata2 lista" id="foto2Lista"></button>
 
-
+        <!-- Modal btnImage1-->
+<div class="modal fade" id="btnImage1" tabindex="-1" aria-labelledby="btnImage1Label" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="btnImage1Label">Screenshot 1</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="../../../assets/img/webapp-lista/schermata lista film 1.png" alt="Schermata1 lista" id="foto1ListaModal">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+<!--         <button type="button" class="btn btn-primary">Save changes</button> -->
+      </div>
+    </div>
   </div>
-  <div class="col-md-1"></div>
+</div>
+  <!--Fine prima Modal-->
+  <!--Modal btnImage2-->
+  <div class="modal fade" id="btnImage2" tabindex="-1" aria-labelledby="btnImage2Label" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="btnImage2Label">Screenshot 2</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <img src="../../../assets/img/webapp-lista/schermata lista film 2.png" alt="Schermata2 lista" id="foto2ListaModal">
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+<!--           <button type="button" class="btn btn-primary">Save changes</button> -->
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--Fine seconda Modal-->
+  </div>
+  <div class="col-1 col-xs-1 col-md-1"></div>
 </div>
 </div>
