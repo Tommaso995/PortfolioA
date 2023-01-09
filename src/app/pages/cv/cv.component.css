@@ -1,0 +1,13 @@
+#fotoCV{
+  margin: 0 auto auto;
+  width: 50%;
+  height: auto;
+  margin: 5%;
+  cursor: pointer;
+}
+.container-fluid{
+  text-align: center;
+  background-image: url(../../../assets/img/webapp-lista/background/sfondo-homepage.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
