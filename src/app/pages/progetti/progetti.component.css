@@ -58,3 +58,6 @@ a{
 #foto1Lista, #foto2Lista{
   width: 100%;
 }
+.modal-header,.modal-body,.modal-footer{
+  background-color: rgb(140,181,233);
+}

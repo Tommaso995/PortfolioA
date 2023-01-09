@@ -64,3 +64,23 @@ button:hover{
 opacity: 10;
 transition: 1s;
 }
+.modal-header,.modal-body,.modal-footer{
+  background-color: rgb(140,181,233);
+}
+/* Riquadro contenitore button */
+#contenitoreButton{
+  background-color:rgb(140,181,233);
+  border: 1px rgb(86,154,225) solid;
+  border-radius: 20px;
+  width: 69%;
+  margin: 0 auto auto;
+  padding: 20px;
+}
+#contenitoreButton:hover{
+  box-shadow: 20px  20px 10px rgb(86,154,225),
+              -20px -20px 10px rgb(86,154,225),     /* Sfumatura */
+              20px -20px 10px rgb(86,154,225),
+              -20px  20px 10px rgb(86,154,225);
+  opacity: 10;
+  transition: box-shadow 1s;
+}

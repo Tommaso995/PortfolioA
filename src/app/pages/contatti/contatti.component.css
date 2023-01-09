@@ -1,5 +1,7 @@
 #contenitoreHeader{
-  background-color:rgb(140,181,233);
+  background-image: url(../../../assets/img/webapp-lista/background/sfondo-homepage.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
   top: 10%;
 }
 
@@ -22,7 +24,7 @@
 }
 #contenitoreTesto{
   margin-top: 10%;
-
+  background-color:rgb(140,181,233);
   border: 1px rgb(86,154,225) solid;
   border-radius: 20px;
   padding: 20px;
