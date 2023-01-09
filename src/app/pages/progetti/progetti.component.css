@@ -12,10 +12,10 @@
 #oggetto:hover{
   border: 2px rgb(118, 118, 238) solid;
   border-radius: 10px;
-  box-shadow: 20px  20px 10px rgb(100, 100, 205),
-              -20px -20px 10px rgb(100, 100, 205),     /* Sfumatura */
-              20px -20px 10px rgb(100, 100, 205),
-              -20px  20px 10px rgb(100, 100, 205);
+  box-shadow: 20px  20px 10px rgb(86,154,225),
+              -20px -20px 10px rgb(86,154,225),     /* Sfumatura */
+              20px -20px 10px rgb(86,154,225),
+              -20px  20px 10px rgb(86,154,225);
   background-color: rgb(216, 216, 248);
   opacity: 10;
   transition: box-shadow, background-color, opacity 1s;
@@ -29,10 +29,10 @@ a{
   color: black;
 }
 #oggetto{
-  border: 4px rgb(118, 118, 238) solid;
+  border: 4px rgb(86,154,225) solid;
   border-radius: 10px;
   font-weight: bold;
-   background-color: rgb(190, 190, 244);
+   background-color: rgb(135, 178, 224);
    /* opacity: 0.9; commentato perchè va in conflitto con la modal */
    color: black;
    /*box-shadow: 5px  5px 2.5px rgb(60, 60, 212),

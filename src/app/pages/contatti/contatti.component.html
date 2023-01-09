@@ -1,0 +1,17 @@
+<div class="container-fluid" id="contenitoreHeader">
+  <div class="row" id="oggetto">
+    <img class="col-12 col-xs-12 col-md-6" src="../../../assets/img/webapp-lista/foto cv.jpg" alt="foto profilo" id="fotoProfilo">
+    <div class="col-12 col-xs-12 col-md-6" id="contenitoreTesto">
+    <h5 class="titolo">{{ titolo }}</h5>
+    <h6 class="titolo">{{ ruolo }}</h6>
+    <h6 class="titolo">Contatti:</h6>
+    <button><a href="mailto:{{mail}}">{{mail}}</a></button>
+    <button><a href="{{linkedin}}" target="_blank">Linkedin</a></button>
+    <form method="post">
+      <input type="text" placeholder="Testo" class="form-control">
+      <input type="text" placeholder="E-mail" class="form-control">
+      <textarea name="#" placeholder="Messaggio" id="messaggio" cols="3" rows="3" class="form-control"></textarea>
+    </form>
+    </div>
+  </div>
+</div>
