@@ -1,9 +1,11 @@
-#container{
-  padding: 2%;
-  text-align: center;
+.container-fluid{
   background-image: url(../../../assets/img/webapp-lista/background/sfondo-homepage.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+}
+#container{
+  padding: 2%;
+  text-align: center;
 }
 .btnImg{
   margin: 2%;
