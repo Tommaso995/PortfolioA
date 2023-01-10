@@ -38,15 +38,16 @@
   -1px -1px 1px rgb(86,154,225),     /* Sfumatura */
   1px -1px 1px rgb(86,154,225),
   -1px  1px 1px rgb(86,154,225);
-transition: box-shadow 1s;
+transition:  1s;
 }
 #contenitoreTesto:hover{
   box-shadow: 20px  20px 10px rgb(86,154,225),
               -20px -20px 10px rgb(86,154,225),     /* Sfumatura */
               20px -20px 10px rgb(86,154,225),
               -20px  20px 10px rgb(86,154,225);
-  opacity: 10;
-  transition: box-shadow 1s;
+              background-color: rgb(216, 216, 248);
+              opacity: 10;
+              transition:  1s;
 }
 
 #oggetto{
@@ -95,13 +96,14 @@ transition: 1s;
   -1px -1px 1px rgb(86,154,225),     /* Sfumatura */
   1px -1px 1px rgb(86,154,225),
   -1px  1px 1px rgb(86,154,225);
-transition: box-shadow 1s;
+transition: 1s;
 }
 #contenitoreButton:hover{
   box-shadow: 20px  20px 10px rgb(86,154,225),
               -20px -20px 10px rgb(86,154,225),     /* Sfumatura */
               20px -20px 10px rgb(86,154,225),
               -20px  20px 10px rgb(86,154,225);
-  opacity: 10;
-  transition: box-shadow 1s;
+              background-color: rgb(216, 216, 248);
+              opacity: 10;
+              transition:  1s;
 }
