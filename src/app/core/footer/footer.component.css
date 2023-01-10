@@ -25,6 +25,11 @@ button{
   margin-left: 10%;
   margin-right: 10%;
   margin-top: 3%;
+  box-shadow: 1px  1px 1px rgb(86,154,225),
+  -1px -1px 1px rgb(86,154,225),     /* Sfumatura */
+  1px -1px 1px rgb(86,154,225),
+  -1px  1px 1px rgb(86,154,225);
+transition: box-shadow 1s;
 
 }
 button:hover{

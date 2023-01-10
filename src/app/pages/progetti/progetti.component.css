@@ -45,6 +45,13 @@ a{
   margin-top: 5%;
   margin-bottom: 5%;
   padding: 2%;
+  opacity:1;
+
+  box-shadow: 1px  1px 1px rgb(86,154,225),
+  -1px -1px 1px rgb(86,154,225),     /* Sfumatura */
+  1px -1px 1px rgb(86,154,225),
+  -1px  1px 1px rgb(86,154,225);
+  transition: 1s;
 }
 #btnImg1, #btnImg2 {
   margin: 1%;

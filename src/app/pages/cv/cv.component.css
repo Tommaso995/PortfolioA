@@ -4,7 +4,21 @@
   height: auto;
   margin: 5%;
   cursor: pointer;
+  box-shadow: 1px  1px 1px rgb(86,154,225),
+  -1px -1px 1px rgb(86,154,225),     /* Sfumatura */
+  1px -1px 1px rgb(86,154,225),
+  -1px  1px 1px rgb(86,154,225);
+transition: box-shadow 1s;
 }
+
+#fotoCV:hover{
+  box-shadow: 20px  20px 10px rgb(86,154,225),
+              -20px -20px 10px rgb(86,154,225),     /* Sfumatura */
+              20px -20px 10px rgb(86,154,225),
+              -20px  20px 10px rgb(86,154,225);
+  transition: 1s;
+}
+
 .container-fluid{
   text-align: center;
   background-image: url(../../../assets/img/webapp-lista/background/sfondo-homepage.jpg);

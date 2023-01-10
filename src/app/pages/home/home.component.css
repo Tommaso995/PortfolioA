@@ -11,8 +11,14 @@
   border-radius: 20px;
   margin: 5%;
   margin-left: 10%;
+  text-align: center;
   padding: 0;
   text-align: justify;
+  box-shadow: 1px  1px 1px rgb(86,154,225),
+              -1px -1px 1px rgb(86,154,225),     /* Sfumatura */
+              1px -1px 1px rgb(86,154,225),
+              -1px  1px 1px rgb(86,154,225);
+  transition: box-shadow 1s;
 }
 #fotoProfilo:hover{
   box-shadow: 20px  20px 10px rgb(86,154,225),
@@ -28,6 +34,11 @@
   border-radius: 20px;
   padding: 20px;
   height: 20%;
+  box-shadow: 1px  1px 1px rgb(86,154,225),
+  -1px -1px 1px rgb(86,154,225),     /* Sfumatura */
+  1px -1px 1px rgb(86,154,225),
+  -1px  1px 1px rgb(86,154,225);
+transition: box-shadow 1s;
 }
 #contenitoreTesto:hover{
   box-shadow: 20px  20px 10px rgb(86,154,225),
@@ -55,6 +66,11 @@ button{
   background-size: cover; */
   border: 0;
   padding: 10px;
+  box-shadow: 1px  1px 1px rgb(86,154,225),
+  -1px -1px 1px rgb(86,154,225),     /* Sfumatura */
+  1px -1px 1px rgb(86,154,225),
+  -1px  1px 1px rgb(86,154,225);
+transition: box-shadow 1s;
 }
 button:hover{
   box-shadow: 5px  5px 2.5px rgb(86,154,225),
@@ -75,6 +91,11 @@ transition: 1s;
   width: 69%;
   margin: 0 auto auto;
   padding: 20px;
+  box-shadow: 1px  1px 1px rgb(86,154,225),
+  -1px -1px 1px rgb(86,154,225),     /* Sfumatura */
+  1px -1px 1px rgb(86,154,225),
+  -1px  1px 1px rgb(86,154,225);
+transition: box-shadow 1s;
 }
 #contenitoreButton:hover{
   box-shadow: 20px  20px 10px rgb(86,154,225),

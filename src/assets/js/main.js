@@ -1,4 +1,4 @@
-document.ready(function(){
+/* document.ready(function(){
 
   $('#darkmode').on("click", function(){
 
@@ -7,6 +7,14 @@ document.ready(function(){
   });
 
   $('#lightmode').click(function(){
-    $('nav').removeClass("navbarDark")
+    $('nav').removeClass("navbarDark");
   });
-});
+}); */
+
+const darkmode = document.querySelector('#darkmode');
+const navbar = document.querySelector('nav');
+
+darkmode.addEventListener('click', function(){
+
+  navbar.style.backgroundColor='rgb(33, 32, 32)';
+})
