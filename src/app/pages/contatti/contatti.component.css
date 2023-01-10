@@ -12,6 +12,7 @@
   margin: 5%;
   margin-left: 10%;
   margin-top: 10%;
+  text-align: center;
   padding: 0;
   text-align: justify;
   box-shadow: 1px  1px 1px rgb(86,154,225),
@@ -91,11 +92,11 @@ form{
 }
 textarea{
   resize: none;
-  width: 50%;
+  width: 96%;
   margin: 1%;
 }
 input{
-  width: 40%;
+  width: 96%;
   margin: 1%;
 }
 img{

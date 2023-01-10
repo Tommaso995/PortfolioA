@@ -11,6 +11,7 @@ const routes: Routes = [
   {path:'progetti', component: ProgettiComponent},
   {path:'contatti', component: ContattiComponent},
   {path:'cv', component: CvComponent},
+  {path:'%%', component: HomeComponent},
   {path:'**', component: HomeComponent}
 ];
 
