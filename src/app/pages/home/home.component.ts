@@ -8,7 +8,7 @@ import { Component } from '@angular/core';
 export class HomeComponent {
 
   titolo: string = 'Tommaso Magliocca';
-  ruolo: string = 'Junior Front End Developer';
+  ruolo: string = 'Junior Developer';
   paragrafo: string = `Da sempre sono un appassionato di tutto ciò che
   riguarda l'informatica. Per coltivare la mia passione e
   per aumentare le mie competenze tecniche ho

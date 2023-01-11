@@ -8,7 +8,7 @@ import { Component } from '@angular/core';
 export class ContattiComponent {
 
   titolo: string = 'Tommaso Magliocca';
-  ruolo: string = 'Junior Front End Developer';
+  ruolo: string = 'Junior Developer';
   mail: string = 'tommaso.magliocca@gmail.com';
   telefono: number = 3473644674;
   linkedin: string = 'https://www.linkedin.com/in/tommaso-magliocca-281275154/';
