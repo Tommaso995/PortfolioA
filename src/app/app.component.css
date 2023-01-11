@@ -1,7 +1,17 @@
+/* @import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+ */@import url('https://fonts.googleapis.com/css2?family=Vollkorn&display=swap');
 
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  
+
+/*   font-family: 'PT Serif', serif;
+  font-size: 20px; */
+
+  font-family: 'Vollkorn', serif;
+
+
 }
+
+
