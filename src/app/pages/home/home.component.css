@@ -129,6 +129,7 @@ transition: 1s;
 @media only screen and (max-width: 1786px) {
   #contenitoreTesto{
     width: 42%;
+    margin-top: 9.2%;
   }
   #fotoProfilo{
 
@@ -140,6 +141,7 @@ transition: 1s;
 @media only screen and (max-width: 1620px) {
   #contenitoreTesto{
     width: 39.8%;
+    margin-top: 8.4%;
   }
 
 }
