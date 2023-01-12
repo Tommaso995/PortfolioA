@@ -43,4 +43,8 @@ transition: 1s;
 #containerBTN{
   text-align: center;
 }
-
+.footerDark{
+  background-color: rgb(33, 32, 32);
+  color: white;
+  transition: background-color 1s;
+}

@@ -1,20 +1,18 @@
-/* document.ready(function(){
+$(document).ready(function(){
 
-  $('#darkmode').on("click", function(){
-
-
-    $('nav').addClass("navbarDark");
-  });
+$('#darkmode').click(function(){
+  $('nav').addClass("navbarDark");
+})
 
   $('#lightmode').click(function(){
     $('nav').removeClass("navbarDark");
   });
-}); */
+});
 
-const darkmode = document.querySelector('#darkmode');
+/* const darkmode = document.querySelector('#darkmode');
 const navbar = document.querySelector('nav');
 
 darkmode.addEventListener('click', function(){
 
   navbar.style.backgroundColor='rgb(33, 32, 32)';
-})
+}) */

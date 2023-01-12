@@ -5,6 +5,7 @@
 nav{
   background-color:  rgb(43, 43, 120);
   color: white;
+  transition: 1s;
 }
 a{
   color: white;
@@ -22,7 +23,7 @@ a:hover{
 .navbarDark{
   background-color: rgb(33, 32, 32);
   color: white;
-  transition: background-color 1s;
+  transition: 1s;
 }
 .nav-link, .navbar-brand{
   color: white;
