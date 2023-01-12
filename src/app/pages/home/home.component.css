@@ -131,9 +131,9 @@ transition: 1s;
     width: 42%;
   }
   #fotoProfilo{
-    margin: 5%;
+
     margin-top: 6%;
-    margin-left: 11%;
+
   }
 }
 
@@ -182,9 +182,7 @@ transition: 1s;
     width: 28.8%;
     margin-top: 6.6%;
   }
-  #fotoProfilo{
-    margin-top: 16%;
-  }
+
 
 }
 
