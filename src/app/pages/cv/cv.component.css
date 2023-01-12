@@ -27,13 +27,13 @@ transition: box-shadow 1s;
   background-repeat: no-repeat;
   background-size: cover;
 }
-
+/* Responsive */
 @media only screen and (max-width: 624px) {
   #fotoCV{
-    margin-top: 36%;
-    margin-bottom: 36%;
-    width: 60%;
-  height: auto;
+    margin-top: 28%;
+    margin-bottom: 28%;
+    width: 73%;
+    height: auto;
   }
 }
 
