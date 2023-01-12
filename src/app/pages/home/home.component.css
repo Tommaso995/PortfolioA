@@ -132,6 +132,7 @@ transition: 1s;
   }
   #fotoProfilo{
     margin: 5%;
+    margin-top: 6%;
     margin-left: 11%;
   }
 }
@@ -147,6 +148,11 @@ transition: 1s;
   #contenitoreTesto{
     width: 37%;
   }
+  #fotoProfilo{
+
+    margin-top: 6%;
+
+  }
 
 
 }
@@ -155,6 +161,18 @@ transition: 1s;
   #contenitoreTesto{
     width: 34.8%;
     margin-top: 6.6%;
+  }
+
+}
+@media only screen and (max-width: 1000px) {
+  #contenitoreTesto{
+    width: 30.8%;
+  }
+
+  #fotoProfilo{
+
+    margin-top: 9.5%;
+
   }
 
 }
