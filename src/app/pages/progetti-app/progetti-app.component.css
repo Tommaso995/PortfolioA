@@ -33,7 +33,7 @@ a{
 #oggetto{
   border: 4px rgb(86,154,225) solid;
   border-radius: 10px;
-  font-weight: bold;
+/*   font-weight: bold; */
    background-color: rgb(135, 178, 224);
    /* opacity: 0.9; commentato perchè va in conflitto con la modal */
    color: black;

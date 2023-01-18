@@ -4,22 +4,30 @@ import { ProgettiComponent } from './progetti/progetti.component';
 import { HomeComponent } from './home/home.component';
 import { ContattiComponent } from './contatti/contatti.component';
 import { CvComponent } from './cv/cv.component';
+import { CoreModule } from "../core/core.module";
+import { ProgettiAppComponent } from './progetti-app/progetti-app.component';
+import { ProgettiWebAppComponent } from './progetti-web-app/progetti-web-app.component';
 
 
 
 @NgModule({
-  declarations: [
-    ProgettiComponent,
-    HomeComponent,
-    ContattiComponent,
-    CvComponent
-  ],
-  imports: [
-    CommonModule
-  ],
-  exports: [
-    ProgettiComponent,
-    HomeComponent
-  ]
+    declarations: [
+        ProgettiComponent,
+        HomeComponent,
+        ContattiComponent,
+        CvComponent,
+        ProgettiAppComponent,
+        ProgettiWebAppComponent
+    ],
+    exports: [
+        ProgettiComponent,
+        HomeComponent,
+        ProgettiAppComponent,
+        ProgettiWebAppComponent
+    ],
+    imports: [
+        CommonModule,
+        CoreModule
+    ]
 })
 export class PagesModule { }

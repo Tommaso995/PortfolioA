@@ -25,3 +25,10 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+
+## 18/01/2023 Problemi con il ciclare variabile typescript array in data-bs-target
+
+Risolto in questo modo
+[attr.data-bs-target]="'#' + progetti.id"
+Utilizzato l'associazione degli attributi
