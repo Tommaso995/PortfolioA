@@ -7,7 +7,7 @@
     <div  *ngFor="let progetti of progettiApp">
     <hr/>
         <h4>{{progetti.titolo}}</h4>
-        <h6>{{progetti.descrizione}}</h6> <p>Per visualizzare il progetto <a href="{{progetti.linkOnline}}">clicca qui</a></p>
+        <h6>{{progetti.descrizione}}</h6> <p>Progetto visualizzabile presso questo link: <a href="{{progetti.linkOnline}}">clicca qui</a></p>
          <h6> {{progetti.schermate}}</h6>
         <button class="btnImg" id="btnImg1" data-bs-toggle="modal" [attr.data-bs-target]="'#' + progetti.id"><img src="{{progetti.foto}}" alt="Schermata1 lista" id="foto1Lista"></button>
         <button class="btnImg" id="btnImg2" data-bs-toggle="modal" [attr.data-bs-target]="'#' + progetti.id2"><img src="{{progetti.foto2}}" alt="Schermata2 lista" id="foto2Lista"></button>
