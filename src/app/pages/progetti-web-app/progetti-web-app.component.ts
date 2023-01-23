@@ -36,5 +36,8 @@ export class ProgettiWebAppComponent {
   foto7: '../../../assets/img/carosello/caroselloProgettoGeneration/ProjectGeneration8.png',
   foto8: '../../../assets/img/carosello/caroselloProgettoGeneration/ProjectGeneration9.png'
     }
-  ]
+  ];
+/*   ngOnInit() {
+    this.progettiWebApp.reverse(); Per stampare l'array al contrario
+  } */
 }

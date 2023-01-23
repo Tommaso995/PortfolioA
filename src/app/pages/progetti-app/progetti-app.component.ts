@@ -38,4 +38,8 @@ export class ProgettiAppComponent {
       titoloModal2: 'Screenshot 2'
     }
     ]
+
+    /*   ngOnInit() {
+    this.progettiApp.reverse(); Per stampare l'array al contrario
+  } */
 }
