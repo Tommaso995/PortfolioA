@@ -36,10 +36,38 @@ export class ProgettiAppComponent {
       ariaLabelledby2: 'btnImage2Label',
       titoloModal: 'Screenshot 1',
       titoloModal2: 'Screenshot 2'
+    },
+    {
+      titolo: 'Web-App Pari o Dispari? Numero Primo?',
+      descrizione: `Tramite questa web app è possibile vedere se il numero inserito è Pari o Dispari; oppure vedere se è un numero Primo.`,
+      linkOnline: 'https://incomparable-crumble-7e2e8a.netlify.app/',
+      schermate: 'Schermate:',
+      foto:'../../../assets/img/webappNumPriDispPar/Screenpari1.png',
+      foto2: '../../../assets/img/webappNumPriDispPar/Screen2 primo.png',
+      id: 'btnpari1',
+      id2: 'btnpari2',
+      ariaLabelledby: 'btnPrimo1Label',
+      ariaLabelledby2: 'btnPrimo2Label',
+      titoloModal: 'Screenshot 1',
+      titoloModal2: 'Screenshot 2'
+    },
+    {
+      titolo: 'Web-App Calcolatrice',
+      descrizione: `Tramite questa web app è possibile usare la calcolatrice con tutte le sue funzioni principali.`,
+      linkOnline: 'https://endearing-choux-7f28bf.netlify.app/',
+      schermate: 'Schermate:',
+      foto:'../../../assets/img/progetti/calcolatrice/screenCalcolatrice1.png',
+      foto2: '../../../assets/img/progetti/calcolatrice/screenCalcolatrice2.png',
+      id: 'btnCalcolatrice1',
+      id2: 'btnCalcolatrice2',
+      ariaLabelledby: 'btnCalcolatrice1Label',
+      ariaLabelledby2: 'btnCalcolatrice2Label',
+      titoloModal: 'Screenshot 1',
+      titoloModal2: 'Screenshot 2'
     }
     ]
 
-    /*   ngOnInit() {
-    this.progettiApp.reverse(); Per stampare l'array al contrario
-  } */
+       ngOnInit() {
+    this.progettiApp.reverse(); //Per stampare l'array al contrario
+  }
 }
