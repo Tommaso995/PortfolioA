@@ -10,7 +10,7 @@ export class ProgettiWebAppComponent {
   progettiWebApp : any[] = [
     {
       titolo: 'Portfolio progetti',
-    descrizione: `Questo Portfolio è stato realizzato utilizzando linguaggio HTML, CSS, Framework Bootstrap, Javascript, Jquery e il Framework Angular.`,
+    descrizione: `Questo Portfolio è stato realizzato utilizzando linguaggi lato Front End: HTML, CSS, Framework Bootstrap, Javascript, Jquery e il Framework Angular; lato Back End: Node.JS e Database MongoDB`,
     link:'https://portfolio-4cf9e.web.app/',
     idCarosello:'carouselExampleIndicators',
     foto1:'../../../assets/img/carosello/1.png',
@@ -24,7 +24,7 @@ export class ProgettiWebAppComponent {
     },
     {
       titolo: 'Project Work - Generation Italy',
-    descrizione: `Questo progetto è stato realizzato al termine del corso erogato da Generation Italy per la figura Junior Java Developer, dove io mi sono occupato del lato Front End. Viene rappresentata una piattaforma dove le persone possono registrarsi e inserire le recensioni dei viaggi effettuati con relative foto (max 3 foto); l'admin dalla sua area può vedere se ci sono nuove recensioni in attesa di essere pubblicate e accettare di pubblicarle o meno visionando la recensione con la foto. Le persone che visiteranno il sito, sia persone registrate e non, dalla schermata Home possono visualizzare le recensioni e se vogliono filtrarle in base al luogo (Italia, Europa e Altro). Il tutto è stato progettato utilizzando il linguaggio: HTML, CSS, Framework Bootstrap, Javascript, Jquery, Framework Spring, Data Base MySQL.`,
+    descrizione: `Questo progetto è stato realizzato al termine del corso erogato da Generation Italy per la figura Junior Java Developer, dove io mi sono occupato del lato Front End. Viene rappresentata una piattaforma dove le persone possono registrarsi e inserire le recensioni dei viaggi effettuati con relative foto (max 3 foto); l'admin dalla sua area può vedere se ci sono nuove recensioni in attesa di essere pubblicate e accettare di pubblicarle o meno visionando la recensione con la foto. Le persone che visiteranno il sito, sia persone registrate e non, dalla schermata Home possono visualizzare le recensioni e se vogliono filtrarle in base al luogo (Italia, Europa e Altro). Il tutto è stato progettato utilizzando il linguaggi lato Front End: HTML, CSS, Framework Bootstrap, Javascript, Jquery; lato Back End: Framework Spring, Java, Data Base MySQL.`,
     link:'https://github.com/ProtoR0/Project-Viaggi_Generation',
     idCarosello:'progettoGeneration',
     foto1:'../../../assets/img/carosello/caroselloProgettoGeneration/ProjectGeneration1.png',
