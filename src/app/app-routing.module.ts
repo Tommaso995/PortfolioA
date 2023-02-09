@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { ContattiSendComponent } from './pages/contatti-send/contatti-send.component';
 import { ContattiComponent } from './pages/contatti/contatti.component';
 import { CvComponent } from './pages/cv/cv.component';
 import { HomeComponent } from './pages/home/home.component';
@@ -14,6 +15,7 @@ const routes: Routes = [
   {path:'progettiApp', component: ProgettiAppComponent},
   {path:'progettiWebApp', component: ProgettiWebAppComponent},
   {path:'contatti', component: ContattiComponent},
+  {path:'contatti/sendMessage', component: ContattiSendComponent},
   {path:'cv', component: CvComponent},
   {path:'%%', component: HomeComponent},
   {path:'**', component: HomeComponent}

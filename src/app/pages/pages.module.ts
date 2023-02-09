@@ -7,6 +7,7 @@ import { CvComponent } from './cv/cv.component';
 import { CoreModule } from "../core/core.module";
 import { ProgettiAppComponent } from './progetti-app/progetti-app.component';
 import { ProgettiWebAppComponent } from './progetti-web-app/progetti-web-app.component';
+import { ContattiSendComponent } from './contatti-send/contatti-send.component';
 
 
 
@@ -17,13 +18,15 @@ import { ProgettiWebAppComponent } from './progetti-web-app/progetti-web-app.com
         ContattiComponent,
         CvComponent,
         ProgettiAppComponent,
-        ProgettiWebAppComponent
+        ProgettiWebAppComponent,
+        ContattiSendComponent
     ],
     exports: [
         ProgettiComponent,
         HomeComponent,
         ProgettiAppComponent,
-        ProgettiWebAppComponent
+        ProgettiWebAppComponent,
+        ContattiSendComponent
     ],
     imports: [
         CommonModule,

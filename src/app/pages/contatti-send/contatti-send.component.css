@@ -1,0 +1,138 @@
+#contenitoreHeader{
+  background-image: url(../../../assets/img/webapp-lista/background/sfondo-homepage.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  top: 10%;
+}
+
+#fotoProfilo{
+  width: auto;
+  height: 340px;
+  border-radius: 20px;
+  margin: 5%;
+  margin-left: 10%;
+  margin-top: 10%;
+  text-align: center;
+  padding: 0;
+  text-align: justify;
+  box-shadow: 1px  1px 1px rgb(86,154,225),
+  -1px -1px 1px rgb(86,154,225),     /* Sfumatura */
+  1px -1px 1px rgb(86,154,225),
+  -1px  1px 1px rgb(86,154,225);
+transition: box-shadow 1s;
+}
+#fotoProfilo:hover{
+  box-shadow: 20px  20px 10px rgb(86,154,225),
+              -20px -20px 10px rgb(86,154,225),     /* Sfumatura */
+              20px -20px 10px rgb(86,154,225),
+              -20px  20px 10px rgb(86,154,225);
+  transition: box-shadow 1s;
+}
+#contenitoreTesto{
+  margin-top: 7%;
+  background-color:rgb(140,181,233);
+  border: 1px rgb(86,154,225) solid;
+  border-radius: 20px;
+  padding: 20px;
+  height: 20%;
+  margin-bottom: 10%;
+  position: relative;
+  bottom: 64px;
+  top: -20px;
+  box-shadow: 1px  1px 1px rgb(86,154,225),
+  -1px -1px 1px rgb(86,154,225),     /* Sfumatura */
+  1px -1px 1px rgb(86,154,225),
+  -1px  1px 1px rgb(86,154,225);
+transition: 1s;
+}
+#contenitoreTesto:hover{
+  box-shadow: 20px  20px 10px rgb(86,154,225),
+              -20px -20px 10px rgb(86,154,225),     /* Sfumatura */
+              20px -20px 10px rgb(86,154,225),
+              -20px  20px 10px rgb(86,154,225);
+  opacity: 10;
+  background-color: rgb(216, 216, 248);
+  transition: 1s;
+}
+
+#oggetto{
+  text-align:justify;
+}
+#button{
+  text-align: center;
+  margin: 0 auto auto;
+  padding: 5%;
+}
+button, #invio{
+  margin: 1%;
+  border-radius: 40px;
+  background-color: rgb(86,154,225);
+  border: 0;
+  padding: 10px;
+  box-shadow: 1px  1px 1px rgb(86,154,225),
+  -1px -1px 1px rgb(86,154,225),     /* Sfumatura */
+  1px -1px 1px rgb(86,154,225),
+  -1px  1px 1px rgb(86,154,225);
+transition: box-shadow 1s;
+
+}
+button:hover, #invio:hover{
+  box-shadow: 5px  5px 2.5px rgb(86,154,225),
+  -5px -5px 2.5px rgb(86,154,225),     /* Sfumatura*/
+  5px -5px 2.5px rgb(86,154,225),
+  -5px  5px 2.5px rgb(86,154,225);
+opacity: 10;
+transition: 1s;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+form{
+  padding: 10px;
+}
+textarea{
+  resize: none;
+  width: 96%;
+  margin: 1%;
+}
+input{
+  width: 96%;
+  margin: 1%;
+}
+img{
+  width: 40px;
+}
+@media only screen and (max-width: 624px) {
+
+  #contenitoreTesto{
+    margin-top: 5.5%;
+  }
+
+  #fotoProfilo{
+    margin: 8%;
+  }
+}
+
+#MsgInviato{
+  text-align: center;
+  background-color: rgb(140,181,233);
+  width: 60%;
+  padding: 5px;
+  border-radius: 80px 0px / 120px;
+  margin-left: auto;
+  margin-right: auto;
+  transition: 1s;
+}
+
+
+  /* Responsive */
+@media only screen and (max-width: 920px) {
+
+  #fotoProfilo{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+}
