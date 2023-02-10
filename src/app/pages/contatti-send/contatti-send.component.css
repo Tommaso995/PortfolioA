@@ -11,7 +11,7 @@
   border-radius: 20px;
   margin: 5%;
   margin-left: 10%;
-  margin-top: 10%;
+  margin-top: 12%;
   text-align: center;
   padding: 0;
   text-align: justify;
@@ -103,16 +103,6 @@ input{
 img{
   width: 40px;
 }
-@media only screen and (max-width: 624px) {
-
-  #contenitoreTesto{
-    margin-top: 5.5%;
-  }
-
-  #fotoProfilo{
-    margin: 8%;
-  }
-}
 
 #MsgInviato{
   text-align: center;
@@ -125,6 +115,17 @@ img{
   transition: 1s;
 }
 
+@media only screen and (max-width: 624px) {
+
+  #contenitoreTesto{
+    margin-top: 5.5%;
+  }
+
+  #fotoProfilo{
+    margin: 8%;
+  }
+}
+
 
   /* Responsive */
 @media only screen and (max-width: 920px) {
@@ -133,6 +134,7 @@ img{
     text-align: center;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 15%;
   }
 
 }
