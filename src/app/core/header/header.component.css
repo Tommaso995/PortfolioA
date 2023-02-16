@@ -2,6 +2,9 @@
   background-color: rgb(167, 167, 239);
 
 }
+#titolo{
+  display: none;
+}
 nav{
   background-color:  rgb(43, 43, 120);
   color: white;
@@ -32,8 +35,12 @@ a:hover{
 .nav-link, .navbar-brand{
   color: white;
 }
-/* @media only screen and (min-width: 310) and (max-width: 768px){
-/*   .navbar-collapse{
-    justify-content: start;
+@media (max-width: 768px){
+
+  #titolo {
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
   }
-} */
+}
