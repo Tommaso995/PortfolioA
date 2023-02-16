@@ -8,6 +8,9 @@ import { CoreModule } from "../core/core.module";
 import { ProgettiAppComponent } from './progetti-app/progetti-app.component';
 import { ProgettiWebAppComponent } from './progetti-web-app/progetti-web-app.component';
 import { ContattiSendComponent } from './contatti-send/contatti-send.component';
+import { PageAdminComponent } from './page-admin/page-admin.component';
+import { LoginComponent } from './login/login.component';
+import { FormsModule } from '@angular/forms';
 
 
 
@@ -19,7 +22,9 @@ import { ContattiSendComponent } from './contatti-send/contatti-send.component';
         CvComponent,
         ProgettiAppComponent,
         ProgettiWebAppComponent,
-        ContattiSendComponent
+        ContattiSendComponent,
+        PageAdminComponent,
+        LoginComponent
     ],
     exports: [
         ProgettiComponent,
@@ -30,7 +35,8 @@ import { ContattiSendComponent } from './contatti-send/contatti-send.component';
     ],
     imports: [
         CommonModule,
-        CoreModule
+        CoreModule,
+        FormsModule
     ]
 })
 export class PagesModule { }

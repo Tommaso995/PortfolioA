@@ -1,0 +1,29 @@
+#contenitoreHeader{
+  /* background-color:rgb(140,181,233); */
+  background-image: url(../../../assets/img/webapp-lista/background/sfondo-homepage.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+form{
+  padding: 20px;
+  padding-top: 15%;
+  padding-bottom: 48%;
+}
+input,button{
+  background-color: rgb(177, 206, 237);
+
+}
+.form-control{
+  margin-top: 1.2%;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media only screen and (max-width: 376px) {
+
+  form{
+    padding: 20px;
+    padding-top: 20%;
+    padding-bottom: 80%;
+  }
+}

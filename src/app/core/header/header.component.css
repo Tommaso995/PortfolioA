@@ -6,6 +6,10 @@ nav{
   background-color:  rgb(43, 43, 120);
   color: white;
   transition: 1s;
+  justify-content: end;
+}
+.navbar-collapse{
+  justify-content: center;
 }
 a{
   color: white;
@@ -27,4 +31,9 @@ a:hover{
 }
 .nav-link, .navbar-brand{
   color: white;
+}
+@media only screen and (min-width: 310) and (max-width: 768px){
+  .navbar-collapse{
+    justify-content: start;
+  }
 }

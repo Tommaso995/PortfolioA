@@ -1,0 +1,15 @@
+<div class="container-fluid" id="contenitoreHeader">
+      <button (click)="auth.logout()">Logout</button>
+    <div class="col-12">
+      <div *ngFor="let mess of message$" id="oggetto">
+        <p><span>ID: </span> {{mess._id}}</p>
+        <h6><span>Titolo del messaggio: </span>{{mess.titolo}}</h6>
+        <p><span>Mail del mittente: </span>{{mess.email}}</p>
+        <p><span>Messaggio: </span>{{mess.message}}</p>
+        <p><span>Creato in data e orario: </span>{{mess.createdAt | date: 'dd/MM/yyyy HH:mm:ss'}}</p>
+        <p><span>Aggiornato in data e orario: </span>{{mess.updatedAt | date: 'dd/MM/yyyy HH:mm:ss'}}</p>
+          <button id="input" (click)="DeleteMessage(mess._id)">❌</button><!-- (click)="delete(mess._id)" -->
+      </div>
+    </div>
+
+</div>
