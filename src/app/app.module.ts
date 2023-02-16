@@ -8,6 +8,7 @@ import { CoreModule } from "./core/core.module";
 import { PagesModule } from "./pages/pages.module";
 import { HttpClientModule } from "@angular/common/http"
 import { FormsModule } from '@angular/forms';
+import { LoginComponentModule } from './pages/login/login.component';
 
 @NgModule({
     declarations: [
@@ -22,7 +23,8 @@ import { FormsModule } from '@angular/forms';
         PagesModule,
         RouterModule,
         HttpClientModule,
-        FormsModule
+        FormsModule,
+        LoginComponentModule /* Questo componente ha il formsModule importato nel file ts del componente login */
     ]
 })
 export class AppModule { }

@@ -1,14 +1,17 @@
 import { HttpClient } from '@angular/common/http';
-import { Component } from '@angular/core';
+import { Component, NgModule } from '@angular/core';
 import { Router } from '@angular/router';
 import { Iadmin } from 'src/app/models/logAdmin';
 import { AuthappService } from 'src/services/authapp.service';
+import { FormsModule } from '@angular/forms';
 
 @Component({
   selector: 'app-login',
   templateUrl: './login.component.html',
   styleUrls: ['./login.component.css']
 })
+
+
 export class LoginComponent {
 
   public username: string ="";
@@ -39,3 +42,11 @@ export class LoginComponent {
 
 
 }
+@NgModule({
+  imports: [
+    FormsModule
+  ],
+  declarations: [ LoginComponent ]
+})
+export class LoginComponentModule { }
+

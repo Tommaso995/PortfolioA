@@ -13,7 +13,7 @@ export class ContattiComponent {
   telefono: number = 3473644674;
   linkedin: string = 'https://www.linkedin.com/in/tommaso-magliocca-281275154/';
 /*
-  /* Controllo invio form 
+  /* Controllo invio form
   controllo: boolean = false;
   title = document.querySelector("#titolo");
   mal = document.querySelector("#mail");

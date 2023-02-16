@@ -10,7 +10,6 @@ import { ProgettiWebAppComponent } from './progetti-web-app/progetti-web-app.com
 import { ContattiSendComponent } from './contatti-send/contatti-send.component';
 import { PageAdminComponent } from './page-admin/page-admin.component';
 import { LoginComponent } from './login/login.component';
-import { FormsModule } from '@angular/forms';
 
 
 
@@ -23,8 +22,8 @@ import { FormsModule } from '@angular/forms';
         ProgettiAppComponent,
         ProgettiWebAppComponent,
         ContattiSendComponent,
-        PageAdminComponent,
-        LoginComponent
+        PageAdminComponent
+
     ],
     exports: [
         ProgettiComponent,
@@ -35,8 +34,7 @@ import { FormsModule } from '@angular/forms';
     ],
     imports: [
         CommonModule,
-        CoreModule,
-        FormsModule
+        CoreModule  /* FormsModule andava in conflitto con l'invio del form nella pagina contatti l'ho inserito solo dentro il file ts del component login e poi importato in app.module.ts*/
     ]
 })
 export class PagesModule { }
