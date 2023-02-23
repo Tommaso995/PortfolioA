@@ -3,8 +3,19 @@
   background-image: url(../../../assets/img/webapp-lista/background/sfondo-homepage.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-
 }
+h6{
+  color: black;
+  padding: 10px;
+  text-align: center;
+  background-color: rgba(255, 0, 0, 0.648);
+  border-radius: 5px;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+}
+
 form{
   padding: 20px;
   padding-top: 15%;
@@ -31,5 +42,10 @@ input,button{
 
   #contenitoreHeader{
     height: 300px;
+  }
+
+  h6{
+    border-radius: 5px;
+    width: 80%;
   }
 }

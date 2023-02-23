@@ -9,7 +9,8 @@ import { ProgettiAppComponent } from './progetti-app/progetti-app.component';
 import { ProgettiWebAppComponent } from './progetti-web-app/progetti-web-app.component';
 import { ContattiSendComponent } from './contatti-send/contatti-send.component';
 import { PageAdminComponent } from './page-admin/page-admin.component';
-import { LoginComponent } from './login/login.component';
+import { LoginComponent, LoginComponentModule } from './login/login.component';
+import { LoginErrorComponent } from './login-error/login-error.component';
 
 
 
@@ -23,7 +24,6 @@ import { LoginComponent } from './login/login.component';
         ProgettiWebAppComponent,
         ContattiSendComponent,
         PageAdminComponent
-
     ],
     exports: [
         ProgettiComponent,
@@ -34,7 +34,8 @@ import { LoginComponent } from './login/login.component';
     ],
     imports: [
         CommonModule,
-        CoreModule  /* FormsModule andava in conflitto con l'invio del form nella pagina contatti l'ho inserito solo dentro il file ts del component login e poi importato in app.module.ts*/
+        CoreModule /* FormsModule andava in conflitto con l'invio del form nella pagina contatti l'ho inserito solo dentro il file ts del component login e poi importato in app.module.ts*/,
+        LoginComponentModule
     ]
 })
 export class PagesModule { }

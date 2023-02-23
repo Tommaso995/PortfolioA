@@ -5,6 +5,7 @@ import { ContattiSendComponent } from './pages/contatti-send/contatti-send.compo
 import { ContattiComponent } from './pages/contatti/contatti.component';
 import { CvComponent } from './pages/cv/cv.component';
 import { HomeComponent } from './pages/home/home.component';
+import { LoginErrorComponent } from './pages/login-error/login-error.component';
 import { LoginComponent } from './pages/login/login.component';
 import { PageAdminComponent } from './pages/page-admin/page-admin.component';
 import { ProgettiAppComponent } from './pages/progetti-app/progetti-app.component';
@@ -22,6 +23,7 @@ const routes: Routes = [
   {path:'cv', component: CvComponent},
   {path:'login', component: LoginComponent},
   {path:'admin', component: PageAdminComponent, canActivate:[RouteGuardService]},
+  {path:'err', component: LoginErrorComponent},
   {path:'%%', component: HomeComponent},
   {path:'**', component: HomeComponent}
 ];

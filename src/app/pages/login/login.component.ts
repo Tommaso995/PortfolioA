@@ -36,6 +36,7 @@ export class LoginComponent {
       },
       (error) => {
         console.error(error);
+        this.route.navigate(['err']);
       }
     );
   }
