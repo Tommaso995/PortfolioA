@@ -38,10 +38,11 @@ input,button{
     padding: 20px;
     padding-top: 20%;
     padding-bottom: 80%;
+    margin-top: 10%;
   }
 
   #contenitoreHeader{
-    height: 300px;
+    height: 450px;
   }
 
   h6{
