@@ -23,6 +23,10 @@ a:hover{
 #dropdown{
   background-color:  rgb(65, 65, 150);
 }
+.dropdown-item:hover{
+  background-color: rgb(44, 44, 104);
+  color: white;
+}
 #darkmode, #lightmode{
   padding-left: 2%;
   color: white;
