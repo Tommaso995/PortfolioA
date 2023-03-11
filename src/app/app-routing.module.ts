@@ -9,6 +9,7 @@ import { LoginErrorComponent } from './pages/login-error/login-error.component';
 import { LoginComponent } from './pages/login/login.component';
 import { PageAdminComponent } from './pages/page-admin/page-admin.component';
 import { ProgettiAppComponent } from './pages/progetti-app/progetti-app.component';
+import { ProgettiTemplateMailComponent } from './pages/progetti-template-mail/progetti-template-mail.component';
 import { ProgettiWebAppComponent } from './pages/progetti-web-app/progetti-web-app.component';
 import { ProgettiComponent } from './pages/progetti/progetti.component';
 
@@ -18,6 +19,7 @@ const routes: Routes = [
   {path:'progetti', component: ProgettiComponent},
   {path:'progettiApp', component: ProgettiAppComponent},
   {path:'progettiWebApp', component: ProgettiWebAppComponent},
+  {path:'templateMail', component: ProgettiTemplateMailComponent},
   {path:'contatti', component: ContattiComponent},
   {path:'contatti/sendMessage', component: ContattiSendComponent},
   {path:'cv', component: CvComponent},

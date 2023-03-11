@@ -11,6 +11,7 @@ import { ContattiSendComponent } from './contatti-send/contatti-send.component';
 import { PageAdminComponent } from './page-admin/page-admin.component';
 import { LoginComponent, LoginComponentModule } from './login/login.component';
 import { LoginErrorComponent } from './login-error/login-error.component';
+import { ProgettiTemplateMailComponent } from './progetti-template-mail/progetti-template-mail.component';
 
 
 
@@ -23,7 +24,8 @@ import { LoginErrorComponent } from './login-error/login-error.component';
         ProgettiAppComponent,
         ProgettiWebAppComponent,
         ContattiSendComponent,
-        PageAdminComponent
+        PageAdminComponent,
+        ProgettiTemplateMailComponent
     ],
     exports: [
         ProgettiComponent,
